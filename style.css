@@ -80,6 +80,16 @@ h3 {
   position: absolute;
 }
 
+.footer-item4{
+  top: 0px;
+  right: 60px;
+  cursor: pointer;
+  position: absolute;
+}
+.footer-item4 p{
+  color: white;
+}
+
 
 
 .footer-item img{
