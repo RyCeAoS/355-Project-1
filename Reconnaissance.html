@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link rel="stylesheet" href="Reconnaissance.css" />
+  <title>Network Security</title>
+</head>
+
+<body id= "remove" onclick="removeShowNav()">
+  <div class="container">
+
+    <button class="Sign-In" onclick="SignIn()">Sign in</button>
+    <button class="Sign-Up" onclick="SignUp()">Sign Up</button>
+    
+    <div class="circle-container">
+      <div class="circle">
+        <button id= "open" onclick="ShowNav()">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="header"><br>
+        <h1>Reconnaissance</h1>
+      </div>
+      <div class="Info">
+        <p>
+          Footprinting is a part of a larger process known as reconnaissance. Reconnaissance is the information-gathering stage of ethical hacking, where you collect data about the target system. This data can include anything from network infrastructure to employee contact details. The goal of reconnaissance is to identify as many potential attack vectors as possible.</p>
+
+<p>Data collected from reconnaissance may include:</p>
+<ul>
+  <li>Security policies. Knowing an organization’s security policies can help you find weaknesses in their system.</li>
+  <li>Network infrastructure. A hacker needs to know what type of network the target is using (e.g., LAN, WAN, MAN), as well as the IP address range and subnet mask.</li>
+  <li>Employee contact details. Email addresses, phone numbers, and social media accounts can be used to launch social engineering attacks.</li>
+  <li>Host information. Information about specific hosts, such as operating system type and version, can be used to find vulnerabilities.</li>
+</ul>
+
+      </div>
+    </div>
+  </div>
+
+
+
+     <nav>
+    <ul>
+      <li onclick="Home()"><i class="Home"></i>Home</li>
+      <li onclick="Reconnaissance()"><i class="Reconnaissance"></i>Reconnaissance</li>
+      <li onclick="RedTeam()"><i class="Red Team"></i>Red Team</li>
+      <li onclick="BlueTeam()"><i class="Blue Team"></i>Blue Team</li>
+      <li onclick="Analysis()"><i class="Analysis"></i>Analysis</li>
+      <li onclick="NetworkSecurity()"><i class="Network Security"></i>Network Security</li>
+    </ul>
+  </nav>
+
+
+
+
+  <script src="Reconnaissance.js"></script>
+
+    
+
+</body>
+</html>
+
+
+

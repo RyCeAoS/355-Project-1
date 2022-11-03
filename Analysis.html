@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link rel="stylesheet" href="Analysis.css" />
+  <title>Analysis</title>
+</head>
+
+<body id= "remove" onclick="removeShowNav()">
+  <div class="container">
+
+    <button class="Sign-In" onclick="SignIn()">Sign in</button>
+    <button class="Sign-Up" onclick="SignUp()">Sign Up</button>
+    
+    <div class="circle-container">
+      <div class="circle">
+        <button id= "open" onclick="ShowNav()">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="header"><br>
+        <h1>Analysis</h1>
+      </div>
+      <div class="Info">
+       <p>
+        A risk analysis is one step in the overall cybersecurity risk management and risk assessment process. The analysis entails examining each risk to the security of your organization’s information systems, devices, and data and prioritizing the potential threats.</p>
+<p>
+Once the analysis is done, you know where to allocate your resources to prevent cyberattacks and, should a data breach occur, which systems to prioritize so your ability to do business can continue with little or no disruption.
+</p>
+<p>
+Several regulatory and industry frameworks specify the need for robust security controls and outline the necessary steps for implementing them. One is the National Institute for Standards and Technology (NIST) Special Publication 800-30, Rev. 1, Guide for Conducting Risk Assessments. Another is International Organization for Standardization (ISO) standard ISO/IEC 27001:2013, Information Security Management.
+</p>
+<p>
+Another ISO document, ISO 27005, provides guidelines for information security risk assessments and helps design risk-based information security management systems.
+</p>
+<p>
+Risk analysis is one of the most important steps in those assessments. This article will examine how such an analysis should be done.
+         
+       </p> 
+      
+      </div>
+    </div>
+  </div>
+
+
+
+    <nav>
+    <ul>
+      <li onclick="Home()"><i class="Home"></i>Home</li>
+      <li onclick="Reconnaissance()"><i class="Reconnaissance"></i>Reconnaissance</li>
+      <li onclick="RedTeam()"><i class="Red Team"></i>Red Team</li>
+      <li onclick="BlueTeam()"><i class="Blue Team"></i>Blue Team</li>
+      <li onclick="Analysis()"><i class="Analysis"></i>Analysis</li>
+      <li onclick="NetworkSecurity()"><i class="Network Security"></i>Network Security</li>
+    </ul>
+  </nav>
+
+
+
+  <script src="Analysis.js"></script>
+
+    
+
+</body>
+</html>
+
+
+

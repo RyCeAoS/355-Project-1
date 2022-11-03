@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link rel="stylesheet" href="network.css" />
+  <title>Network Security</title>
+</head>
+
+<body id="remove" onclick="removeShowNav()">
+  <div class="container">
+    <button class="Sign-In" onclick="SignIn()">Sign in</button>
+    <button class="Sign-Up" onclick="SignUp()">Sign Up</button>
+
+    <div class="circle-container">
+      <div class="circle">
+        <button id="open" onclick="ShowNav()">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="header"><br>
+        <h1>About</h1>
+      </div>
+      <div class="Info">
+        <p>
+        Welcome to Hacker’s Den!</p>
+        <p>        
+Our business provides a platform that allows for people in cybersecurity to be able to ask questions and share ideas about all things cybersecurity and information technology. Our objective is to make cybersecurity as accessible as possible through means that encourage community based interactions. While people within cybersecurity may be able to help, we also have provided users the opportunity to connect with leading industry professionals who have partnered with Hacker’s Den to make the whole initiative possible. 
+</p><br>
+      </div>
+    </div>
+  </div>
+
+
+
+  <nav>
+    <ul>
+      <li onclick="Home()"><i class="Home"></i>Home</li>
+      <li onclick="Reconnaissance()"><i class="Reconnaissance"></i>Reconnaissance</li>
+      <li onclick="RedTeam()"><i class="Red Team"></i>Red Team</li>
+      <li onclick="BlueTeam()"><i class="Blue Team"></i>Blue Team</li>
+      <li onclick="Analysis()"><i class="Analysis"></i>Analysis</li>
+      <li onclick="NetworkSecurity()"><i class="Network Security"></i>Network Security</li>
+    </ul>
+  </nav>
+
+
+
+
+  <script src="About.js"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link rel="stylesheet" href="BlueTeam.css" />
+  <title>Network Security</title>
+</head>
+
+<body id= "remove" onclick="removeShowNav()">
+  <div class="container">
+    <button class="Sign-In" onclick="SignIn()">Sign in</button>
+    <button class="Sign-Up" onclick="SignUp()">Sign Up</button>
+    
+    <div class="circle-container">
+      <div class="circle">
+        <button id= "open" onclick="ShowNav()">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="header"><br>
+        <h1>Blue Team</h1>
+      </div>
+      <div class="Info">
+        <p>
+           A group of individuals that conduct operational network vulnerability evaluations and provide mitigation techniques to customers who have a need for an independent technical review of their network security posture. The Blue Team identifies security threats and risks in the operating environment, and in cooperation with the customer, analyzes the network environment and its current state of security readiness. Based on the Blue Team findings and expertise, they provide recommendations that integrate into an overall community security solution to increase the customer's CS readiness posture. Often times a Blue Team is employed by itself or prior to a Red Team employment to ensure that the customer's networks are as secure as possible before having the Red Team test the systems.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+ <nav>
+    <ul>
+      <li onclick="Home()"><i class="Home"></i>Home</li>
+      <li onclick="Reconnaissance()"><i class="Reconnaissance"></i>Reconnaissance</li>
+      <li onclick="RedTeam()"><i class="Red Team"></i>Red Team</li>
+      <li onclick="BlueTeam()"><i class="Blue Team"></i>Blue Team</li>
+      <li onclick="Analysis()"><i class="Analysis"></i>Analysis</li>
+      <li onclick="NetworkSecurity()"><i class="Network Security"></i>Network Security</li>
+    </ul>
+  </nav>
+
+
+
+
+  <script src="BlueTeam.js"></script>
+
+    
+
+</body>
+</html>
+
+
+

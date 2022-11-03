@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link rel="stylesheet" href="RedTeam.css" />
+  <title>Red Team</title>
+</head>
+
+<body id= "remove" onclick="removeShowNav()">
+  <div class="container">
+
+    <button class="Sign-In" onclick="SignIn()">Sign in</button>
+    <button class="Sign-Up" onclick="SignUp()">Sign Up</button>
+    
+    <div class="circle-container">
+      <div class="circle">
+        <button id= "open" onclick="ShowNav()">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="header"><br>
+        <h1>Red Team</h1>
+      </div>
+      <div class="Info">
+        <p>
+          A red team consists of security professionals who act as adversaries to overcome cyber security controls. Red teams often consist of independent ethical hackers who evaluate system security in an objective manner.</p>
+
+ 
+<p>
+They utilize all the available techniques (discussed below) to find weaknesses in people, processes, and technology to gain unauthorized access to assets. As a result of these simulated attacks, red teams make recommendations and plans on how to strengthen an organization’s security posture.
+</p>
+
+        <div class= "Info2">
+            <h1>Red Team Tools</h1>
+            <table>
+                <tr>
+                  <th>Tool</th>
+                  <th>What it does</th>
+                  <th>Key features</th>
+                </tr>
+                <tr>
+                  <td>Astra's Pentest</td>
+                  <td>Vulnerability Assessment & Penetration Testing</td>
+                  <td>3000+ Tests, Continuous scanning, CI/CD integration, zero false positives, compliance monitoring.</td>
+                </tr>
+                <tr>
+                  <td>Nmap</td>
+                  <td>Network Scanning</td>
+                  <td>Create inventory of network devices, port scanning, mapping large networks</td>
+                </tr>
+                <tr>
+                  <td>Metasploit</td>
+                  <td>Vulnerability probing and weakness detection</td>
+                  <td>C1677 exploits organized over 25 platforms, 500+ payloads, Encoders, post-exploit code</td>
+                </tr>
+                <tr>
+                  <td>WireShark</td>
+                  <td>Protocol analysis, network monitoring</td>
+                  <td>Capture and analyze network traffic, capture live data from Ethernet, LAN, USB, etc. Inspect protocols</td>
+                </tr>
+            </table>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <nav>
+    <ul>
+      <li onclick="Home()"><i class="Home"></i>Home</li>
+      <li onclick="Reconnaissance()"><i class="Reconnaissance"></i>Reconnaissance</li>
+      <li onclick="RedTeam()"><i class="Red Team"></i>Red Team</li>
+      <li onclick="BlueTeam()"><i class="Blue Team"></i>Blue Team</li>
+      <li onclick="Analysis()"><i class="Analysis"></i>Analysis</li>
+      <li onclick="NetworkSecurity()"><i class="Network Security"></i>Network Security</li>
+    </ul>
+  </nav>
+
+
+
+  <script src="RedTeam.js"></script>
+
+    
+
+</body>
+</html>
+
+
+
